@@ -10,12 +10,37 @@
       background-size: cover;
     }
   </style>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .pdf-frame {
+      width: 100%;
+      height: 500px;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
 
 <body>
   <h1>1st year</h1>
- <iframe src="https://github.com/srthafeni/ZiiggImage1/raw/42ef552c7857c3cdc6e1379f94b6df219798957d/Algebra_notes___problems_and_solutions.pdf" width="100%" height="900px" frameborder="0">
- 
- </iframe>
+ <ul>
+    <li>
+      <h3>PDF 1</h3>
+      <div class="pdf-frame">
+        <iframe src="pdf1.pdf" width="100%" height="100%"></iframe>
+      </div>
+    </li>
+    <li>
+      <h3>PDF 2</h3>
+      <div class="pdf-frame">
+        <embed src="pdf2.pdf" type="application/pdf" width="100%" height="100%" />
+      </div>
+    </li>
+    <!-- Add more PDFs as needed -->
+  </ul>
 </body>
 </htmL>
