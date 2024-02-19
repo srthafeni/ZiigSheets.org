@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Ziigsheets</title>
@@ -62,8 +62,6 @@ nav ul li a:hover {
 <body>
 
 
-
-  <h1>Welcome to Ziigsheets</h1>
   <nav id="menu">
     <ul id="menu-list">
       <!-- Menu buttons will be added dynamically using JavaScript -->
