@@ -10,37 +10,25 @@
       background-size: cover;
     }
   </style>
-  <style>
-    ul {
-      list-style-type: none;
-    }
-    li {
-      margin-bottom: 10px;
-    }
-    .pdf-frame {
-      width: 100%;
-      height: 500px;
-      border: 1px solid #ccc;
-    }
-  </style>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF in Text Console Example</title>
+<style>
+  #console {
+    width: 80%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: monospace;
+    overflow-y: scroll; /* Enable vertical scrollbar */
+  }
+</style>
 </head>
-
 <body>
-  <h1>1st year</h1>
- <ul>
-    <li>
-      <h3>PDF 1</h3>
-      <div class="pdf-frame">
-        <iframe src="Algebra_notes___problems_and_solutions.pdf" width="100%" height="100%"></iframe>
-      </div>
-    </li>
-    <li>
-      <h3>PDF 2</h3>
-      <div class="pdf-frame">
-        <embed src="pdf2.pdf" type="application/pdf" width="100%" height="100%" />
-      </div>
-    </li>
-    <!-- Add more PDFs as needed -->
-  </ul>
+<h1>1st year</h1>
+<textarea id="console" readonly>
+  <!-- You can add text content here if needed -->
+</textarea>
+<embed src="Algebra_notes___problems_and_solutions.pdf" type="application/pdf" width="100%" height="600px" />
 </body>
 </htmL>
