@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       name: "Mechanical Engineering",
-      url: "mechanical.html"
+      url: "Mechanical.html"
     },
     {
       name: "Chemical Engineering",
