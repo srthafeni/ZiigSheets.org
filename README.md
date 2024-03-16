@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
     body {
-  background-image: url('https://github.com/srthafeni/ZiiggImage1/raw/1daf0bbc78167b4f411e7c5952e65049b0f64fab/ZIIG%20SHEETS_20240129_140111_0000.png');
+  background-image: url('https://github.com/srthafeni/ZiigSheets.org/raw/013ee0831b91c75e5f5b3e2ac4fcbcafe123c327/Welcome%20to%20ZiigSheets_20240219_125719_0000.png');
   background-size: cover;
 }
 
